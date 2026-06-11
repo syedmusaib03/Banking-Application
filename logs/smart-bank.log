@@ -1,0 +1,98 @@
+2026-06-11T23:45:41.780+05:30  INFO 11776 --- [smartbank-management-system] [main] martBankManagementSystemApplicationTests : Starting SmartBankManagementSystemApplicationTests using Java 21.0.5 with PID 11776 (started by User in D:\Programming\SpringBoot\Resume Projects\VaultEdge-Enterprise-Banking-System-main\VaultEdge-Enterprise-Banking-System-main\SmartBank)
+2026-06-11T23:45:41.785+05:30 DEBUG 11776 --- [smartbank-management-system] [main] martBankManagementSystemApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-06-11T23:45:41.786+05:30  INFO 11776 --- [smartbank-management-system] [main] martBankManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-06-11T23:45:42.843+05:30  INFO 11776 --- [smartbank-management-system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-11T23:45:42.913+05:30  INFO 11776 --- [smartbank-management-system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2026-06-11T23:45:43.651+05:30  INFO 11776 --- [smartbank-management-system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-11T23:45:43.718+05:30  INFO 11776 --- [smartbank-management-system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-06-11T23:45:43.746+05:30  INFO 11776 --- [smartbank-management-system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-11T23:45:44.069+05:30  INFO 11776 --- [smartbank-management-system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-11T23:45:44.100+05:30  INFO 11776 --- [smartbank-management-system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-11T23:45:44.426+05:30  INFO 11776 --- [smartbank-management-system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66a8751a
+2026-06-11T23:45:44.429+05:30  INFO 11776 --- [smartbank-management-system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-11T23:45:44.523+05:30  INFO 11776 --- [smartbank-management-system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-11T23:45:45.471+05:30  INFO 11776 --- [smartbank-management-system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-11T23:45:45.557+05:30  INFO 11776 --- [smartbank-management-system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T23:45:46.001+05:30  INFO 11776 --- [smartbank-management-system] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-11T23:45:47.062+05:30  WARN 11776 --- [smartbank-management-system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-11T23:45:47.390+05:30  INFO 11776 --- [smartbank-management-system] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-11T23:45:47.500+05:30 DEBUG 11776 --- [smartbank-management-system] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-11T23:45:47.782+05:30  WARN 11776 --- [smartbank-management-system] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-11T23:45:47.933+05:30  INFO 11776 --- [smartbank-management-system] [main] martBankManagementSystemApplicationTests : Started SmartBankManagementSystemApplicationTests in 6.539 seconds (process running for 7.483)
+2026-06-11T23:45:48.032+05:30 DEBUG 11776 --- [smartbank-management-system] [main] org.hibernate.SQL                        : 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2026-06-11T23:45:48.047+05:30  INFO 11776 --- [smartbank-management-system] [main] com.bank.smartbank.config.DataSeeder     : Admin user already exists
+2026-06-11T23:45:48.422+05:30  INFO 11776 --- [smartbank-management-system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T23:45:48.426+05:30  INFO 11776 --- [smartbank-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-11T23:45:48.435+05:30  INFO 11776 --- [smartbank-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-11T23:46:03.593+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : Starting SmartBankManagementSystemApplication using Java 21.0.5 with PID 4960 (D:\Programming\SpringBoot\Resume Projects\VaultEdge-Enterprise-Banking-System-main\VaultEdge-Enterprise-Banking-System-main\SmartBank\target\classes started by User in D:\Programming\SpringBoot\Resume Projects\VaultEdge-Enterprise-Banking-System-main\VaultEdge-Enterprise-Banking-System-main\SmartBank)
+2026-06-11T23:46:03.595+05:30 DEBUG 4960 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-06-11T23:46:03.595+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2026-06-11T23:46:03.630+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T23:46:03.631+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T23:46:04.179+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-11T23:46:04.237+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2026-06-11T23:46:04.677+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-11T23:46:04.687+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T23:46:04.688+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-06-11T23:46:04.721+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-11T23:46:04.722+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1091 ms
+2026-06-11T23:46:04.824+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-11T23:46:04.853+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-06-11T23:46:04.877+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-11T23:46:05.054+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-11T23:46:05.073+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-11T23:46:05.310+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c726cb7
+2026-06-11T23:46:05.311+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-11T23:46:05.365+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-11T23:46:06.045+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-11T23:46:06.108+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T23:46:06.331+05:30 DEBUG 4960 --- [smartbank-management-system] [restartedMain] c.b.s.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-06-11T23:46:06.379+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-11T23:46:07.015+05:30  WARN 4960 --- [smartbank-management-system] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-11T23:46:07.186+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-11T23:46:07.271+05:30 DEBUG 4960 --- [smartbank-management-system] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-11T23:46:07.379+05:30  WARN 4960 --- [smartbank-management-system] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-11T23:46:07.486+05:30  WARN 4960 --- [smartbank-management-system] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-06-11T23:46:07.500+05:30  WARN 4960 --- [smartbank-management-system] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-11T23:46:07.503+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T23:46:07.505+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-11T23:46:07.512+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-11T23:46:07.522+05:30  INFO 4960 --- [smartbank-management-system] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-11T23:46:07.536+05:30 ERROR 4960 --- [smartbank-management-system] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
